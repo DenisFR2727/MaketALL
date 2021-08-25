@@ -1,0 +1,231 @@
+header{
+    width: 1598px;
+    height: 540px;
+    margin: 0 auto;
+    background-image: url("img/Masthead.png");
+    background-size: cover;
+}
+html, body {
+    margin:0;
+    padding:0;
+    }
+.img_icon_header{
+    width: 80px;
+    height: 80px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.img_icon_header img{
+    margin: 0;
+}
+nav{
+    position: relative;
+    display: flex;
+    margin-left: 190px;
+}
+.a_nav a{
+    text-decoration: none;
+    color: #f26c4f;
+    font-size: 14px;
+}
+.a_nav a:hover {
+    background-color: rgb(228, 194, 182);
+    border-radius: 3px;
+}
+.a_nav li{
+    list-style: none;
+}
+nav .a_nav{
+    width: 480px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* //burger menu */
+.burger_menu{
+    width: 62px;
+    height: 62px;
+    background-color: #1ac7c3;
+    border-radius: 1px;
+}
+ .burger_menu{
+    position:absolute;
+    right:0px;
+}
+.burger_menu div{
+    position: relative;
+    left: 15px;
+    top:12px;
+    margin-top:4px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 1px;
+    padding:2px;
+    background-color: white;
+}
+.main{
+    display: flex;
+    width: 1598px;
+    margin: 0 auto;
+}
+.content_block1{
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+    width: 580px;
+    height: 1600px;
+}
+.block_main_1{
+    width: 625px;
+    position: relative;
+    display: flex;
+    width: 800px;
+    height: 1600px;
+    top: -40px;
+    background-color: white;
+}
+.block_main_1 .p_block_1{
+    font-size: 15px;
+    color: #506d81;
+}
+.block_main_2{
+    width: 798px;
+    height: 2018px;
+}
+.block_main_2_1{
+    height: 1009px;
+    background-color: #1ac7c3;
+}
+.block_main_2_2{
+    height: 1009px;
+    background-color: #1ac7c3;
+    background-image: url("img/Layer\ 8.png");
+    background-size: cover;
+}
+.contact_us{
+    width: 220px;
+    height: 41px;
+    position:absolute;
+    right:0px;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: orangered;
+    top: -1px;
+}
+.contact_us p{
+    text-align: center;
+
+}
+.content_p{
+  font-size: 40px;
+  color: #153f60;
+  text-transform: uppercase;
+  margin-top: 65px;
+}
+.content_p2{
+    margin-top: 60px;
+    font-size: 20px;
+    color: #153f60;
+}
+hr{
+    color:#e6e5d7;
+    height: 0.2px;
+}
+.content_width{
+    width: 90%;
+    color: #153f60;
+    font-size: 14px;
+}
+.content_p3{
+    margin-top: 60px;
+}
+.hr2{
+    margin-top: 120px;
+    color:#e6e5d7;
+    height: -0.1px;
+}
+h3{
+    margin-top: 70px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.block_main_2_1{
+    /* width: 42%; */
+    padding-left: 60px;
+    padding-top: 300px;
+}
+.block_main_2{
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+    width: 799px;
+}
+.block_main_2_1 .p1{
+    width: 422px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    /* padding-top: 30px; */
+}
+.block_main_2_1 .p2{
+    width: 422px;
+    font-size: 14px;
+    line-height:  1.5em;
+}
+.block_main_2_2{
+    margin: 0;
+    padding: 0;
+}
+.block_3_3{
+    margin-top: -458px;
+    /* margin: 0; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 1598px;
+    height: 780px;
+    background-color: #f26c4f;
+}
+.content_block2 p{
+    margin:0;
+    padding-left: 60px;
+    width: 580px;
+}
+.content_width2 p{
+    width: 90%;
+    margin: 0;
+    padding-top: 100px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.content_width2{
+    width: 580px;
+    margin-left: 230px;
+}
+.content_width2 .pcont_3{
+    padding-top: 28px;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+.content_width2 .pcont_4{
+    font-size: 14px;
+    text-transform: lowercase;
+}
+.button_get{
+    width: 204px;
+    height: 50px;
+    background-color: aliceblue;
+    text-align: center;
+ 
+    color: orangered;
+    /* padding-top: 30px; */
+}
+.button_get p{
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+}
