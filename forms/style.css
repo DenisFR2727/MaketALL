@@ -1,0 +1,42 @@
+
+form{
+    width: 500px;
+    background-color: seagreen;
+    color: lemonchiffon;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+fieldset{
+    display: flex;
+    position: relative;
+}
+fieldset label{
+    
+}
+.in{
+    position: absolute;
+    left:200px;
+}
+.send{
+    margin-top: 30px;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    background-color: #000;
+    color:white;
+}
+.send:hover{
+    color:black;
+    background-color: white;
+}
+.one{
+    margin-bottom: 10px;
+}
+input::placeholder{
+    color: red;
+}
