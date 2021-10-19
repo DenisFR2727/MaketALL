@@ -1,0 +1,1 @@
+(login=="user" || email=="user@itsteporg") && password=="MySecret"
