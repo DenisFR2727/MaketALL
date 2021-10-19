@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+<!--            <label for="name">Ваше имя <input type="text" id="name"></label>-->
+           <fieldset>
+           <legend>INFO</legend>
+            <label class="one">Ваше имя <input type="text" placeholder="имя" min="3" class="in"></label>
+            <label class="one">Ваш e-mail<input type="email" placeholder="e-mail" maxlength="7"  class="in"></label>
+            <label class="one">Пароль<input type="password"  class="in"></label>
+            <label class="one">ваш number <input type="number" class="in"></label>
+            <label class="one">календарь<input type="date" class="in"></label>
+            </fieldset>
+            <fieldset>
+            <label for="q">какой-то вопрос</label>
+            <p class="q">Yes <input type="checkbox" checked>
+            No <input type="checkbox">Dunno <input type="checkbox"></p>
+            <label for="q2">Kакой-то вопрос</label>
+            <p class="q">
+                Yes <input type="radio" name="q2">
+                No <input type="radio" name="q2">
+                Maybe <input type="radio" name="q2">
+            </p>
+            <legend>Yo! what about some goddamn wedd dude?</legend>
+            <label for="q3">Kакой-то вопрос 3</label>
+            <p class="q3">
+                Yes <input type="radio" name="q3">
+                No <input type="radio" name="q3">
+                Maybe <input type="radio" name="q3">
+            </p>
+            <label>Ещё один вопрос</label>
+            <select>
+                <option>html/css</option>
+                <option>one</option>
+                <option>two</option>
+                <option>three</option>
+            </select>
+            </fieldset>
+            <p>Comment</p>
+            <textarea cols="30" rows="10"></textarea>
+            <input type="submit" value="registration" class="send">
+<!--            <input type="button" id="button">-->
+        </form>
+    </div>
+</body>
+</html>
